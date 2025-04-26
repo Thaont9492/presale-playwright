@@ -7,6 +7,7 @@
     "test:cucumber": "cucumber-js",
     "test:playwright": "playwright test",
     "test:report": "cucumber-js --format json:cucumber-report.json",
+    "test:repeat": "node ./scripts/repeat-test.js",
     "lint": "eslint . --ext .ts",
     "lint:fix": "eslint . --ext .ts --fix"
   },

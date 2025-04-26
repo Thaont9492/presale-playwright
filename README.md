@@ -74,6 +74,9 @@ npm run test:cucumber -- --tags "@preorder-checkout or @notify-me"
 
 # Run scenarios with one tag but not another
 npm run test:cucumber -- --tags "@preorder-checkout and not @wip"
+
+# Run scenarios with one tag but not another
+npm run test:repeat 5 @preorder-checkout
 ```
 
 ## 📊 Test Reports
