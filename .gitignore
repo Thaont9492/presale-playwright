@@ -1,0 +1,13 @@
+node_modules/
+dist/
+playwright-report/
+test-results/
+.auth/
+*.log
+*.env
+cucumber-report.html
+cucumber-report.json
+package-lock.json
+yarn.lock
+videos/
+screenshots/ 
